@@ -33,7 +33,7 @@
 | Stardew Valley Expanded Farm Type Manager | 1.15.11 | FlashShifter | [下载](https://www.nexusmods.com/stardewvalley/mods/3753) |
 | StardewHack | 7.4 | bcmpinc | [下载](https://www.nexusmods.com/stardewvalley/mods/3213) |
 | StardustCore | 3.1.1 | Alpha_Omegasis | [下载](https://www.nexusmods.com/stardewvalley/mods/2341) |
-| UI Info Suite 2 | 2.3.7 | Annosz | [下载](https://www.nexusmods.com/stardewvalley/mods/7098) |
+| UI Info Suite 2 | 2.3.7 | Annosz | [作者 Releases](https://github.com/Annosz/UIInfoSuite2/releases) |
 | Wear More Rings | 7.9 | bcmpinc | [下载](https://www.nexusmods.com/stardewvalley/mods/3214) |
 | Canon-Friendly Dialogue Expansion | 3.1.1 | gizzymo (dialogue), WitchWeed (coding) | [下载](https://www.nexusmods.com/stardewvalley/mods/2544) |
 | Earthy Recolour | 1.4.4 | DaisyNiko | [下载](https://www.nexusmods.com/stardewvalley/mods/5255) |

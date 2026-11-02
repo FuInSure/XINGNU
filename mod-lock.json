@@ -12,7 +12,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/48820"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Automate",
@@ -23,7 +24,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/1063"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "AutomaticGates",
@@ -34,7 +36,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/3109"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Better Ranching",
@@ -50,7 +53,8 @@
           "UniqueID": "spacechase0.GenericModConfigMenu",
           "IsRequired": false
         }
-      ]
+      ],
+      "requiredDependencies": []
     },
     {
       "name": "Chests Anywhere",
@@ -61,7 +65,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/518"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "CJB Cheats Menu",
@@ -72,7 +77,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/4"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Console Commands",
@@ -81,7 +87,8 @@
       "folder": "ConsoleCommands",
       "author": "SMAPI",
       "links": [],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Content Patcher",
@@ -92,7 +99,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/1915"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Farm Type Manager (FTM)",
@@ -117,6 +125,12 @@
           "UniqueID": "Cherry.ExpandedPreconditionsUtility",
           "IsRequired": false
         }
+      ],
+      "requiredDependencies": [
+        {
+          "id": "Pathoschild.ContentPatcher",
+          "minimumVersion": "2.0.0"
+        }
       ]
     },
     {
@@ -128,7 +142,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/1089"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Flexible Arms",
@@ -144,6 +159,12 @@
           "UniqueID": "bcmpinc.StardewHack",
           "MinimumVersion": "7.2"
         }
+      ],
+      "requiredDependencies": [
+        {
+          "id": "bcmpinc.StardewHack",
+          "minimumVersion": "7.2"
+        }
       ]
     },
     {
@@ -155,7 +176,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/47129"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Generic Mod Config Menu",
@@ -166,7 +188,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/5098"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Gift Taste Helper Continued x2",
@@ -177,7 +200,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/21001"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Go To Bed",
@@ -193,7 +217,8 @@
           "UniqueID": "spacechase0.GenericModConfigMenu",
           "IsRequired": false
         }
-      ]
+      ],
+      "requiredDependencies": []
     },
     {
       "name": "Happy Birthday",
@@ -218,6 +243,16 @@
           "IsRequired": true,
           "MinimumVersion": "2.9.0"
         }
+      ],
+      "requiredDependencies": [
+        {
+          "id": "Omegasis.StardustCore",
+          "minimumVersion": "3.0.1"
+        },
+        {
+          "id": "Pathoschild.ContentPatcher",
+          "minimumVersion": "2.9.0"
+        }
       ]
     },
     {
@@ -229,7 +264,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/3094"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Mod Shortcut Reference Hub",
@@ -240,7 +276,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/41846"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "NPC Map Locations",
@@ -251,7 +288,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/239"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Save Backup",
@@ -260,7 +298,8 @@
       "folder": "SaveBackup",
       "author": "SMAPI",
       "links": [],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "SinZational Speedy Solutions",
@@ -271,7 +310,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/37301"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "SkipFishingMinigame",
@@ -282,7 +322,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/2697"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "SkullCavernElevator",
@@ -293,7 +334,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/963"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "SpaceCore",
@@ -309,7 +351,8 @@
           "UniqueID": "Pathoschild.ContentPatcher",
           "IsRequired": false
         }
-      ]
+      ],
+      "requiredDependencies": []
     },
     {
       "name": "Stardew Valley Expanded",
@@ -320,7 +363,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/3753"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Stardew Valley Expanded",
@@ -352,6 +396,20 @@
           "UniqueID": "Rose.craftables",
           "IsRequired": false
         }
+      ],
+      "requiredDependencies": [
+        {
+          "id": "FlashShifter.SVE-FTM",
+          "minimumVersion": null
+        },
+        {
+          "id": "FlashShifter.SVECode",
+          "minimumVersion": null
+        },
+        {
+          "id": "Pathoschild.ContentPatcher",
+          "minimumVersion": null
+        }
       ]
     },
     {
@@ -363,7 +421,13 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/3753"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": [
+        {
+          "id": "Esca.FarmTypeManager",
+          "minimumVersion": "1.19"
+        }
+      ]
     },
     {
       "name": "StardewHack",
@@ -380,7 +444,8 @@
           "MinimumVersion": "1.12",
           "IsRequired": false
         }
-      ]
+      ],
+      "requiredDependencies": []
     },
     {
       "name": "StardustCore",
@@ -391,7 +456,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/2341"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "UI Info Suite 2",
@@ -402,7 +468,8 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/7098"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": []
     },
     {
       "name": "Wear More Rings",
@@ -418,6 +485,12 @@
           "UniqueID": "bcmpinc.StardewHack",
           "MinimumVersion": "7.1"
         }
+      ],
+      "requiredDependencies": [
+        {
+          "id": "bcmpinc.StardewHack",
+          "minimumVersion": "7.1"
+        }
       ]
     },
     {
@@ -429,7 +502,13 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/2544"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": [
+        {
+          "id": "Pathoschild.ContentPatcher",
+          "minimumVersion": null
+        }
+      ]
     },
     {
       "name": "Earthy Recolour",
@@ -440,7 +519,13 @@
       "links": [
         "https://www.nexusmods.com/stardewvalley/mods/5255"
       ],
-      "dependencies": []
+      "dependencies": [],
+      "requiredDependencies": [
+        {
+          "id": "Pathoschild.ContentPatcher",
+          "minimumVersion": null
+        }
+      ]
     },
     {
       "name": "Happy Birthday zh-CN Translation Content Pack",
@@ -455,6 +540,16 @@
         {
           "UniqueID": "Omegasis.HappyBirthday",
           "MinimumVersion": "3.21.0"
+        }
+      ],
+      "requiredDependencies": [
+        {
+          "id": "Omegasis.HappyBirthday",
+          "minimumVersion": "3.21.0"
+        },
+        {
+          "id": "Pathoschild.ContentPatcher",
+          "minimumVersion": null
         }
       ]
     },
@@ -503,6 +598,16 @@
         {
           "UniqueID": "Poltergeister.CuteSprites",
           "IsRequired": false
+        }
+      ],
+      "requiredDependencies": [
+        {
+          "id": "FlashShifter.StardewValleyExpandedCP",
+          "minimumVersion": null
+        },
+        {
+          "id": "Pathoschild.ContentPatcher",
+          "minimumVersion": null
         }
       ]
     }
