@@ -4,7 +4,7 @@
   "date": "2026-11-02",
   "mods": [
     {
-      "name": "Auto Fisher / Авто-рыбак",
+      "name": "Auto Fisher / 袗胁褌芯-褉褘斜邪泻",
       "id": "Rusmi.AutoFisher",
       "version": "1.1.2",
       "folder": "AutoFisher",
@@ -624,11 +624,6 @@
       "size": 4230
     },
     {
-      "path": "AutoFisher/config.json",
-      "sha256": "76d26fafe29f9856fe0ae02c4b80051982aae76f1d14ef5a93f0ecf7aaf13160",
-      "size": 252
-    },
-    {
       "path": "AutoFisher/manifest.json",
       "sha256": "f6294220d5e86c3ea2a60309a6d25020f8dbfd851916cf7fb222c0ff0ac61148",
       "size": 393
@@ -662,11 +657,6 @@
       "path": "Automate/Automate.dll",
       "sha256": "88f18426a84ee6122a7e22e7a5a16d2d1c433e17e73860afff95a94681491e21",
       "size": 358400
-    },
-    {
-      "path": "Automate/config.json",
-      "sha256": "365993757e6c9f4164e5ee5c5bda8f822e657b5d2bff3b5259bebd4005fcb337",
-      "size": 481
     },
     {
       "path": "Automate/manifest.json",
@@ -759,11 +749,6 @@
       "size": 23040
     },
     {
-      "path": "AutomaticGates/config.json",
-      "sha256": "3a9c9159fbc4e89193d3abc23fcf8db5c486103aa586ff3fb06020c4b252c6e2",
-      "size": 294
-    },
-    {
       "path": "AutomaticGates/manifest.json",
       "sha256": "3fe4475b3785fe908f725ac0ba0fa66ed8c2ce94a5069e909378ed75c755b5a8",
       "size": 292
@@ -772,11 +757,6 @@
       "path": "BetterRanching/BetterRanching.dll",
       "sha256": "8f780e686d31879c0623782cbbf77ad1b2740b6a2b8ecf59fdb7d57e5d231d9f",
       "size": 31232
-    },
-    {
-      "path": "BetterRanching/config.json",
-      "sha256": "05c64b0131fc4a22ab8224a41db49093fe490c57f5bc1afd0a61b1fafcc261d0",
-      "size": 200
     },
     {
       "path": "BetterRanching/manifest.json",
@@ -812,11 +792,6 @@
       "path": "ChestsAnywhere/ChestsAnywhere.dll",
       "sha256": "2dc7127781a127a103c40766b0d6500fa6a41a8f4a7310c9a18778d27f7158cb",
       "size": 288256
-    },
-    {
-      "path": "ChestsAnywhere/config.json",
-      "sha256": "63adec7eec147318e15a31fba0623027a52472e71f2cfab66a6e53d1176e9bb2",
-      "size": 722
     },
     {
       "path": "ChestsAnywhere/manifest.json",
@@ -907,11 +882,6 @@
       "path": "CJBCheatsMenu/CJBCheatsMenu.dll",
       "sha256": "1e8b9f089055129b51a4dc37e0cb2ad682b0a832e68bf6f038839f50333ead3e",
       "size": 284160
-    },
-    {
-      "path": "CJBCheatsMenu/config.json",
-      "sha256": "82d84dda9fcb0c1cb1be880d4e058c98f667a0fe4a025d5a7d09dd56995cd258",
-      "size": 1107
     },
     {
       "path": "CJBCheatsMenu/manifest.json",
@@ -1014,11 +984,6 @@
       "size": 280
     },
     {
-      "path": "ContentPatcher/config.json",
-      "sha256": "a13ebe741c38a17e3c98403a400fe0f452786b1f456ce54714fbdc0a75f6e4bb",
-      "size": 165
-    },
-    {
       "path": "ContentPatcher/ContentPatcher.dll",
       "sha256": "5203af255c6a826a598470a642e0eb488fd943196354f79fe05fcd08bf6c941f",
       "size": 793600
@@ -1027,11 +992,6 @@
       "path": "ContentPatcher/manifest.json",
       "sha256": "72f977d62966acda3538ea57ba3fcea2e3fe84af1cd365ff27dd137d21b79696",
       "size": 356
-    },
-    {
-      "path": "FarmTypeManager/config.json",
-      "sha256": "38f7c2ef55556b8d27b2a36502f4f11c7d193cbf5dd37ec7e4fb262e687388c7",
-      "size": 175
     },
     {
       "path": "FarmTypeManager/FarmTypeManager.dll",
@@ -1087,11 +1047,6 @@
       "path": "FarmTypeManager/i18n/zh.json",
       "sha256": "21b1ec27e23a1942aa3822c536e9776a5ea8da1c7882611fe9a53622907a465b",
       "size": 1201
-    },
-    {
-      "path": "FastAnimations/config.json",
-      "sha256": "32db43204be0b96bd5aeddf1f60583b8da377622365379937554400deee0b69b",
-      "size": 962
     },
     {
       "path": "FastAnimations/FastAnimations.dll",
@@ -1174,11 +1129,6 @@
       "size": 6763
     },
     {
-      "path": "FlexibleArms/config.json",
-      "sha256": "b7226122ece8717a81568dafc2ebf8fad8c37c148a7d1f4ff070e5e67e77fbaf",
-      "size": 23
-    },
-    {
       "path": "FlexibleArms/FlexibleArms.dll",
       "sha256": "7672fb97219d2762430418a52e97916c52f24895fa870a876098b59f6ea8af4e",
       "size": 16896
@@ -1209,11 +1159,6 @@
       "size": 130
     },
     {
-      "path": "FriendshipNeverDecays/config.json",
-      "sha256": "1f20ad817f91d8c100adecb3a4ddb44b8c4f9d0852e6c2ba07c6d0cdc426edd3",
-      "size": 172
-    },
-    {
       "path": "FriendshipNeverDecays/FriendshipNeverDecays.dll",
       "sha256": "97e6135fc6ecc74e70fa28ce94df50eab8e2a87786a3b4a9ce504fe58f5a10d9",
       "size": 16384
@@ -1222,11 +1167,6 @@
       "path": "FriendshipNeverDecays/manifest.json",
       "sha256": "c990543766e4096be6a5a7d6c9608afcb1baec820c8728d9ad86be791306aaf7",
       "size": 377
-    },
-    {
-      "path": "GenericModConfigMenu/config.json",
-      "sha256": "1bfbb217bf0401f41faec8a5b504a231d92a073de2fb0baca04d517165ddeeb7",
-      "size": 49
     },
     {
       "path": "GenericModConfigMenu/GenericModConfigMenu.dll",
@@ -1319,11 +1259,6 @@
       "size": 1280
     },
     {
-      "path": "GiftTasteHelper/config.json",
-      "sha256": "5023e07d5ab395b1f9526a5daf26755f4f9a2431274bca323217e2e6e98bc9eb",
-      "size": 305
-    },
-    {
       "path": "GiftTasteHelper/GiftTasteHelper.dll",
       "sha256": "5160327a49e1bd7f2aa71dd7c798a7475af882462da42f74371047c55bd068ba",
       "size": 80384
@@ -1387,11 +1322,6 @@
       "path": "GiftTasteHelper/i18n/zh.json",
       "sha256": "399b3498af4018af576b630ebbe412434842db65512d587e15abd2b080f4b478",
       "size": 1569
-    },
-    {
-      "path": "GoToBed/config.json",
-      "sha256": "53e0eb2572d05d2b204795bdef6f02129c42f7d51237e0d9197eb9936e9a2d88",
-      "size": 144
     },
     {
       "path": "GoToBed/GoToBed.dll",
@@ -1484,16 +1414,6 @@
       "size": 596
     },
     {
-      "path": "HappyBirthday/Configs/MailConfig.json",
-      "sha256": "0d8447b47e939e951743dcaea13097e6c0569f9dfc887b8627633836f0441948",
-      "size": 210
-    },
-    {
-      "path": "HappyBirthday/Configs/ModConfig.json",
-      "sha256": "f5b681af237bedfae39b5cf2a515fb228cb94e331b10a4443c939246401b0b6e",
-      "size": 234
-    },
-    {
       "path": "HappyBirthday/ModAssets/Graphics/lastPageButton.png",
       "sha256": "30a69c210d4732039cbb0a2e7130a9f3bb365a06f89b0fc63cf4d052ae0ae837",
       "size": 290
@@ -1502,11 +1422,6 @@
       "path": "HappyBirthday/ModAssets/Graphics/nextPageButton.png",
       "sha256": "46718193eab61ad0f17bdfb519fda5e81e28cbb9717e160b06317c5902837363",
       "size": 272
-    },
-    {
-      "path": "LadderLocator/config.json",
-      "sha256": "b8ad7a26399befdbb27575ca378259910aa9becbf98f2fbeed77a9dd8e6dd3dc",
-      "size": 873
     },
     {
       "path": "LadderLocator/cracked.png",
@@ -1542,11 +1457,6 @@
       "path": "LadderLocator/i18n/zh.json",
       "sha256": "5acd99a6c1456ac54c4322560459018153525ecb362f89c49fdd0eae0c5c5376",
       "size": 2074
-    },
-    {
-      "path": "ModShortcutReferenceHub/config.json",
-      "sha256": "e0d5a1800de9437f3e4562f318e938152c0e8bfae1247fedf6216dba1fd2e0ee",
-      "size": 3901
     },
     {
       "path": "ModShortcutReferenceHub/manifest.json",
@@ -1627,11 +1537,6 @@
       "path": "ModShortcutReferenceHub/i18n/zh.json",
       "sha256": "cf5e7e319e9d2809c0b27251bff04581ccc8bcdf334c473acd35060ed647692a",
       "size": 940
-    },
-    {
-      "path": "NPCMapLocations/config.json",
-      "sha256": "9263a0af02878d214e05fa6bd08184096c3d87d833001442b2a29792dae1db0c",
-      "size": 1666
     },
     {
       "path": "NPCMapLocations/manifest.json",
@@ -1744,11 +1649,6 @@
       "size": 22528
     },
     {
-      "path": "SinZational Speedy Solutions/config.json",
-      "sha256": "e8db67688c6f6729b4b2f1f378a95975bc92d31570a8b9551805375645cca4c0",
-      "size": 265
-    },
-    {
       "path": "SinZational Speedy Solutions/manifest.json",
       "sha256": "d9768e1b81e7fec8bc658b9caf9d020aae214f736dd43ff860b492de73bc795e",
       "size": 560
@@ -1759,11 +1659,6 @@
       "size": 26112
     },
     {
-      "path": "SkipFishingMinigameDotnet5/config.json",
-      "sha256": "5bdb481f33c66ef6132693273b5837177c29fa89490e21c529a1bfb768d0ce70",
-      "size": 256
-    },
-    {
       "path": "SkipFishingMinigameDotnet5/manifest.json",
       "sha256": "24637e449f9a17ef513963627065dd4abc8787fc5d2daa77a4d5067ea023b895",
       "size": 320
@@ -1772,11 +1667,6 @@
       "path": "SkipFishingMinigameDotnet5/SkipFishingMinigame.dll",
       "sha256": "edee03f67072846a8acbb26aa7529d5bad4e1039d7a37db892889e918cc332ef",
       "size": 34304
-    },
-    {
-      "path": "SkullCavernElevator/config.json",
-      "sha256": "13c8e2cebd2ede210c7f5a0f2028c6aa0a64fffbe45745420d26eea17f851974",
-      "size": 113
     },
     {
       "path": "SkullCavernElevator/manifest.json",
@@ -1802,11 +1692,6 @@
       "path": "SkullCavernElevator/assets/mine_slime.png",
       "sha256": "1569ed8a57d3eea1a79996e84f4e8ced1b5da0609d2e784cf3f8fa84eb5b2124",
       "size": 52957
-    },
-    {
-      "path": "SpaceCore/config.json",
-      "sha256": "41b610da0115f8b08004d81ccb5c84d76c845e2a97fb7e4533f4bce5eadf5aff",
-      "size": 229
     },
     {
       "path": "SpaceCore/manifest.json",
@@ -1922,11 +1807,6 @@
       "path": "Stardew Valley Expanded/Stardew Valley Expanded Code/i18n/zh.json",
       "sha256": "d4e08670a04fe0691cea19c1766b7c4a07e553de7310598b2a3e7e3ade591d22",
       "size": 2165
-    },
-    {
-      "path": "Stardew Valley Expanded/[CP] Stardew Valley Expanded/config.json",
-      "sha256": "bf253f07c6a0fb462f76ddd92b7a84d1e466506f6af950823b6ea572d2ea3311",
-      "size": 1168
     },
     {
       "path": "Stardew Valley Expanded/[CP] Stardew Valley Expanded/content.json",
@@ -12474,11 +12354,6 @@
       "size": 599
     },
     {
-      "path": "StardustCore/config.json",
-      "sha256": "c0129e8ef8dfbd6d757ba0094473141d3476709a49d13421df96bbe4907f9d7f",
-      "size": 34
-    },
-    {
       "path": "StardustCore/manifest.json",
       "sha256": "c45a15c15848950e52059b550709a41f0ac3088671d9ceb8cd169efaa6644660",
       "size": 297
@@ -12999,11 +12874,6 @@
       "size": 291
     },
     {
-      "path": "UIInfoSuite2/config.json",
-      "sha256": "ba27ccf32271e87f82200735a233638d0e9a3e8e1a697a4c6189a92fd9998df1",
-      "size": 238
-    },
-    {
       "path": "UIInfoSuite2/manifest.json",
       "sha256": "00d79a5a7770b1e75f26de28ce1238a079a4c11e92203b321e8cf378359f93bb",
       "size": 384
@@ -13109,11 +12979,6 @@
       "size": 5630
     },
     {
-      "path": "WearMoreRings/config.json",
-      "sha256": "8f0034a3921ad24d32f89277044a3ffacc236ef98a027deb2349a28a56f2e734",
-      "size": 44
-    },
-    {
       "path": "WearMoreRings/manifest.json",
       "sha256": "aa1cf9fd73c93d14361d1ddc46937914c75a85562d3edc123c73ba2ee5819cba",
       "size": 404
@@ -13167,11 +13032,6 @@
       "path": "WearMoreRings/i18n/zh.json",
       "sha256": "be25d4440b6439c2fa2c928a65ac04cc0da78efe16494e510818bbd806d9aa64",
       "size": 393
-    },
-    {
-      "path": "[CP] Canon Friendly Dialogue Expansion/config.json",
-      "sha256": "f16e1c83010daa561e35777c509826e9bd7762627915e30719acd8ba8a223a7d",
-      "size": 983
     },
     {
       "path": "[CP] Canon Friendly Dialogue Expansion/content.json",
@@ -13392,11 +13252,6 @@
       "path": "[CP] Canon Friendly Dialogue Expansion/i18n/zh.json",
       "sha256": "efb16bb97acab235b5233188d1675bb9da2ba96f561b75f634790ab78a73f96e",
       "size": 860243
-    },
-    {
-      "path": "[CP] DaisyNiko's Earthy Recolour/config.json",
-      "sha256": "9c487218eeca7dbc086ce9bc40d2f4d2c4bc5ae16dc9155106f956edbd8958d9",
-      "size": 208
     },
     {
       "path": "[CP] DaisyNiko's Earthy Recolour/content.json",
@@ -14687,11 +14542,6 @@
       "path": "[CP] HappyBirthdayContentPack zh-CN/ModAssets/Strings/Dialogue/Wizard.json",
       "sha256": "a76b43c043ae578d61d1d410f362120b5f7c8796946828430242cbb2b765b7c5",
       "size": 401
-    },
-    {
-      "path": "[CP] Seasonal Cute Characters SVE/config.json",
-      "sha256": "dd1841ea062d1d9cecc7a200616efae3bb75950d638a044f82e2679e2c1426f5",
-      "size": 821
     },
     {
       "path": "[CP] Seasonal Cute Characters SVE/content.json",
@@ -18038,5 +17888,6 @@
       "sha256": "0b26dde8066c51a31e9e180f9fc2dd88bb56ffeb128bf362273cb7038b27084e",
       "size": 154686
     }
-  ]
+  ],
+  "configurationPolicy": "Use mod defaults; personal configuration files excluded."
 }
