@@ -6,6 +6,29 @@
 
 已安装对应版本原 MOD 后，可使用 [中文补丁安装说明](localization/README.md)。补丁覆盖 10 个 MOD、11 个文件，包括自动钓鱼机中文及本地补充的界面翻译；不含完整 MOD 本体。请关闭游戏，先执行检查模式，再安装。文件不匹配会停止，禁止强制套用；独立生日中文内容包仍从作者页面下载。
 
+## 生日独立汉化包：需要另行下载
+
+**XINGNU 中文补充补丁不包含生日独立汉化包。组员需要从 [Happy Birthday 简体中文内容包作者页面](https://www.nexusmods.com/stardewvalley/mods/13862) 单独下载并安装，不能只装 Happy Birthday 本体或 XINGNU 中文补丁。**
+
+本方案使用 **Happy Birthday zh-CN Translation Content Pack 2.0.4**，搭配 **Happy Birthday 3.21.4**、**StardustCore 3.1.1** 和 **Content Patcher 2.9.1**。下载时核对版本和语言，不要误选其他语言；找不到对应版本先与房主确认。
+
+1. 退出游戏，先安装 Happy Birthday 本体、StardustCore 和 Content Patcher。
+2. 从上述作者页面下载简体中文内容包，解压后把含 manifest.json 的 `[CP] HappyBirthdayContentPack zh-CN` 文件夹放进游戏 `Mods`，与 `HappyBirthday` 文件夹并列。不要放进 HappyBirthday 内部，也不要形成多层同名目录。
+3. 游戏语言选择简体中文，通过 SMAPI 启动，检查该中文内容包没有被跳过或报告缺少依赖，再用 F7 查看生日相关菜单。菜单能打开只能验证入口，祝福、信件及生日事件需触发后检查。
+4. 如果仍显示英文，先检查中文包版本、目录层级和 SMAPI 加载日志，不要反复安装 XINGNU 补丁来代替这个独立内容包。
+
+预期目录：
+
+```text
+Mods/
+├─ ContentPatcher/
+├─ StardustCore/
+├─ HappyBirthday/
+└─ [CP] HappyBirthdayContentPack zh-CN/
+   ├─ manifest.json
+   └─ content.json
+```
+
 ## 各 MOD 的功能与操作
 
 请阅读 [35 个 MOD／组件的详细使用指南](MOD-GUIDE.md)：包含用途、操作步骤、当前快捷键与数值、联机注意事项。新成员先记住 F6（快捷键表）、P（MOD 设置）、B（箱子）；CJB 等玩法修改开关请先阅读对应章节。
@@ -15,7 +38,7 @@
 1. 安装正版游戏，与房主核对版本。先启动原版一次并退出。不同平台能否互联需另行确认，本包不面向手机、主机。
 2. 从 https://smapi.io/ 安装与基线一致的 SMAPI 4.5.2；若无法取得此版本，先与房主协商统一升级，不单独混用新旧版本。
 3. 退出游戏，把自己原有的 `Mods` 文件夹改名留作备份。不要将旧 MOD 混进这套包。
-4. 按 `MODS.md` 从作者页面取得相同版本，保持清单中的子目录结构。SMAPI 自带 ConsoleCommands 和 SaveBackup，不需要重复下载。
+4. 按 `MODS.md` 从作者页面取得相同版本，保持清单中的子目录结构。SMAPI 自带 ConsoleCommands 和 SaveBackup，不需要重复下载。**生日简体中文包必须另外从 [作者页面](https://www.nexusmods.com/stardewvalley/mods/13862) 下载 2.0.4，安装方法见上文“生日独立汉化包”。**
 5. 房主本地完整 ZIP 的结构是 `Mods/各MOD目录`，解压后的 Mods 应放到游戏根目录，避免出现 `Mods/Mods`。完整包未上传此仓库，取得各作者允许分发的文件前，请使用原作者下载渠道。
 6. 下载本仓库后，在 PowerShell 执行 `powershell -ExecutionPolicy Bypass -File .\Verify-Mods.ps1 -ModsPath "你的游戏目录\Mods"`。首次启动前核对；本地汉化 DLL 与原作者下载的 DLL 哈希不同是预期差异，但不能当作完全同一套文件。校验会明确列出差异。
 7. 使用 `StardewModdingAPI.exe` 启动，查看 SMAPI 是否有红色错误、缺少依赖或被跳过的 MOD。正常后才加入房主。

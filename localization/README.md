@@ -2,6 +2,10 @@
 
 这是针对本方案固定版本的本地汉化补充，不含完整 MOD 本体，不能替代原作者安装包。请先按主安装指南安装原 MOD；不要把此文件夹放入 Mods。
 
+## 生日汉化需要单独安装
+
+本补丁不包含 **Happy Birthday zh-CN Translation Content Pack 2.0.4**。请从 [作者页面](https://www.nexusmods.com/stardewvalley/mods/13862) 下载，把 `[CP] HappyBirthdayContentPack zh-CN` 文件夹放在 Mods 下，与 HappyBirthday 并列。它需要 Happy Birthday、StardustCore 和 Content Patcher；安装后选择简体中文并检查 SMAPI 加载情况。
+
 ## 安装
 
 1. 退出游戏。解压补丁 ZIP 到独立文件夹。
