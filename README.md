@@ -17,6 +17,46 @@
 7. 使用 `StardewModdingAPI.exe` 启动，查看 SMAPI 是否有红色错误、缺少依赖或被跳过的 MOD。正常后才加入房主。
 8. 通过游戏“合作 → 加入”使用房主邀请。无需登录房主的 Steam、Nexus 或 Stardrop 账号，也不需要复制房主的单人存档。
 
+## SVE 必装说明：本方案包含 SVE
+
+**组员若要加入本方案的 SVE 农场，必须自行安装完整 SVE 及其前置。下载本仓库或 Release 指南 ZIP 不会安装 SVE，也不会安装任何 MOD 本体。** 所有人使用下列相同版本；不要一个人直接改用最新版。
+
+| 安装项 | 本方案版本 | 用途与来源 |
+|---|---|---|
+| SMAPI | 4.5.2 | 加载器，[官方网站](https://smapi.io/) |
+| Content Patcher | 2.9.1 | 加载 SVE 内容包，[作者页面](https://www.nexusmods.com/stardewvalley/mods/1915) |
+| Farm Type Manager | 1.26.1 | 加载 SVE 世界生成包，[作者页面](https://www.nexusmods.com/stardewvalley/mods/3231) |
+| Stardew Valley Expanded | 1.15.11 | 完整本体，包含下面三个组件，[作者页面](https://www.nexusmods.com/stardewvalley/mods/3753) |
+| Seasonal Cute Characters SVE | 3.0.0 | 本方案的配套人物美化，必须有 SVE 才能加载，[作者页面](https://www.nexusmods.com/stardewvalley/mods/5969) |
+
+安装顺序：先安装 SMAPI，再解压 Content Patcher 和 Farm Type Manager 到游戏的 Mods 文件夹，然后解压完整 SVE，最后安装配套美化。下载时核对文件版本；找不到指定旧版时先与房主协商全员统一升级，不能静默换成新版。
+
+本方案的目录结构应为（每个组件目录内都有 manifest.json）：
+
+```text
+Stardew Valley/
+├─ StardewModdingAPI.exe
+└─ Mods/
+   ├─ ContentPatcher/
+   ├─ FarmTypeManager/
+   ├─ Stardew Valley Expanded/
+   │  ├─ Stardew Valley Expanded Code/
+   │  ├─ [CP] Stardew Valley Expanded/
+   │  └─ [FTM] Stardew Valley Expanded/
+   └─ [CP] Seasonal Cute Characters SVE/
+```
+
+- 三个 SVE 组件属于同一套扩展，不能只安装其中一个；不要形成 Mods/Mods 嵌套或保留重复版本。
+- 依赖方向：SVE 使用 Content Patcher、Farm Type Manager；人物美化依赖 SVE。框架不是依赖 SVE 的附属品。
+- 其余本方案 MOD 没有声明以 SVE 为必需前置，但其他依赖仍按完整清单安装。
+- 本方案不含 Grandpa's Farm、Immersive Farm 2 Remastered 等额外农场替换包，不必为安装 SVE 擅自加装它们。
+- 首次启动检查 SMAPI 中三个 SVE 组件及人物美化是否成功加载；出现缺少依赖或跳过加载时先修复，再加入农场。
+- 本地做过汉化补充，作者原包的文件哈希可能不同；版本相同不代表已经同步本地汉化，也不代表校验已全部通过。
+
+**如果全员决定改玩无 SVE 的新农场**：共同移出整个 Stardew Valley Expanded 目录及 [CP] Seasonal Cute Characters SVE。按本方案计数相当于移除 4 个组件；原 35 项校验清单也需重建。不要只让某一位组员不装 SVE，也不要直接从已经使用 SVE 的正式存档移除。
+
+SVE 作者为 FlashShifter 及其贡献者；程序组件署名还包括 Esca、kittycatcasey，人物美化作者为 Poltergeister。本项目仅整理使用说明与安装清单，不是 SVE 官方发行。SVE 安装包未上传本仓库，原因和作者分发条款见下文“内容与分发”。
+
 ## 房主创建联机存档
 
 1. 先备份自己已有存档；用相同 MOD 基线启动。
