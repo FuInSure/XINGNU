@@ -4,13 +4,57 @@
 
 本方案使用游戏 **1.6.15**、**SMAPI 4.5.2** 和 [35 个 MOD／组件](MODS.md)。本包只提供说明、汉化补充及校验工具，**不包含完整 MOD 本体，也不包含房主个人配置**。默认设置不等于原版难度，部分 MOD 本身就会改变玩法。
 
+## 这套 MOD 都有什么功能？
+
+下面覆盖全部 **35 个 MOD／组件**，方便先了解用途再安装。框架组件主要给其他 MOD 提供支持，不需要玩家日常操作；SVE 的三个组件属于同一套扩展。功能描述不表示本包开启了房主的个人设置，具体开关与数值以作者默认值为准。
+
+| MOD／组件（中文用途名 + 原名） | 主要功能 |
+|---|---|
+| 自动钓鱼机 — Auto Fisher / Авто-рыбак | 在水边放置机器，利用相邻箱子里的鱼竿和耗材自动钓鱼。 |
+| 机器自动化 — Automate | 从相邻箱子取原料投入支持的机器，再把成品送回箱子。 |
+| 自动开关门 — AutomaticGates | 接近栅栏门时自动开门，离开后自动关门。 |
+| 牧场照料提示 — Better Ranching | 用图标提示动物是否需要抚摸、是否有产物，并减少无效收获操作。 |
+| 远程箱子 — Chests Anywhere | 无需走到箱子前即可访问可用储物容器。 |
+| CJB 功能菜单 — CJB Cheats Menu | 修改生命、体力、时间、传送、农业和建筑等行为。 |
+| SMAPI 控制台命令 — Console Commands | 提供诊断及游戏管理命令。 |
+| 内容补丁框架 — Content Patcher | 加载地图、对白、贴图及数据内容包。 |
+| 生成管理框架 — Farm Type Manager (FTM) | 按内容包规则生成采集物、矿石、怪物等。 |
+| 动画加速 — Fast Animations | 加快多种动作与界面动画。 |
+| 交互距离调整 — Flexible Arms | 调整玩家可触及的距离。 |
+| 好感不衰减 — Friendship Never Decays | 防止日常未互动导致的好感下降。 |
+| 通用 MOD 设置菜单 — Generic Mod Config Menu | 让支持该接口的 MOD 在游戏中显示设置界面。 |
+| 礼物喜好提示 — Gift Taste Helper Continued x2 | 在日历和社交页面显示 NPC 的礼物喜好。 |
+| 自动回床 — Go To Bed | 在设定时刻传送到指定位置。 |
+| 玩家生日 — Happy Birthday | 给玩家增加生日、祝福和相关内容。 |
+| 梯子定位与矿石雷达 — LadderLocator | 高亮可能通向下一层的石头，并提供矿石雷达和强制竖井开关。 |
+| 快捷键速查表 — Mod Shortcut Reference Hub | 把本包常用快捷键集中显示。 |
+| 地图 NPC 定位 — NPC Map Locations | 在地图上显示人物等标记，并提供小地图。 |
+| SMAPI 存档备份 — Save Backup | 自动保留存档备份，供出问题后恢复。 |
+| 加载优化 — SinZational Speedy Solutions | 通过音频、地图和图像缓存等方式减少部分加载开销。 |
+| 跳过钓鱼小游戏 — SkipFishingMinigame | 保留抛竿等流程，跳过控制绿条追鱼的小游戏。 |
+| 骷髅洞穴电梯 — SkullCavernElevator | 在骷髅洞穴使用电梯返回已解锁的深层。 |
+| 扩展功能框架 — SpaceCore | 为依赖它的 MOD 提供自定义技能、界面及其他扩展能力。 |
+| SVE 程序组件 — Stardew Valley Expanded | 实现扩展内容所需的程序逻辑。 |
+| SVE 地图与剧情内容 — Stardew Valley Expanded | 扩展人物、地点、剧情、物品与世界内容。 |
+| SVE 世界生成组件 — Stardew Valley Expanded Farm Type Manager | 通过 Farm Type Manager 提供 SVE 配套生成规则。 |
+| 基础补丁框架 — StardewHack | 为相关工具距离、装备等 MOD 提供底层支持。 |
+| 生日等功能的基础框架 — StardustCore | 为 Happy Birthday 等 MOD 提供基础工具和界面组件。 |
+| 界面信息增强 — UI Info Suite 2 | 提供日历、委托板、作用范围和多种日常信息提示。 |
+| 更多戒指槽 — Wear More Rings | 增加可装备戒指的槽位。 |
+| 原作风格对话扩展 — Canon-Friendly Dialogue Expansion | 增加符合原作人物风格的日常与节日对话。 |
+| 大地色地图美化 — Earthy Recolour | 替换环境色彩和部分贴图。 |
+| 生日中文内容包 — Happy Birthday zh-CN Translation Content Pack | 为 Happy Birthday 的相关对白、信件和事件提供中文内容。 |
+| SVE 季节服装与人物美化 — Seasonal Cute Characters SVE | 为 SVE 人物提供替换立绘/行走图及季节、节日服装。 |
+
+更详细的操作方法和联机注意事项见 [MOD 功能与使用指南](MOD-GUIDE.md)，固定版本与下载链接见 [MODS.md](MODS.md)。本方案要求按完整清单安装；不要仅因框架没有独立玩法就把它删掉。
+
 ## 先认识三类下载文件
 
 | 文件 | 从哪里获得 | 放在哪里 |
 |---|---|---|
 | SMAPI 安装包 | SMAPI 官方 Releases | 解压到临时文件夹，运行安装器；不要当普通 MOD 丢进 Mods |
 | 各个 MOD 的原包，包括 SVE、生日中文包 | MODS.md 中的作者链接 | 解压，将实际 MOD 文件夹放入游戏的 Mods |
-| XINGNU-Default-Setup-20261102-r2.zip | 本仓库最新 Release 的 Assets | 解压到游戏 Mods 以外，运行其中的安装脚本 |
+| XINGNU-Default-Setup-20261102-r3.zip | 本仓库最新 Release 的 Assets | 解压到游戏 Mods 以外，运行其中的安装脚本 |
 
 下载 ZIP 后必须先“全部解压”。不要在压缩包窗口内直接运行脚本。GitHub 自动生成的 Source code.zip 不是推荐的安装附件，请选择上表指定名称。
 
@@ -19,7 +63,7 @@
 1. 组员注册或登录自己的 GitHub 账号，把 GitHub 用户名告诉房主。
 2. 房主进入 XINGNU 的 Settings，找到 Collaborators 或访问管理，添加该用户名。界面名称可能随 GitHub 更新变化。
 3. 组员接受邮件或 GitHub 通知中的仓库邀请，再打开 [XINGNU](https://github.com/FuInSure/XINGNU)。
-4. 打开 [最新 Release](https://github.com/FuInSure/XINGNU/releases/latest)，展开 Assets，下载 `XINGNU-Default-Setup-20261102-r2.zip`。
+4. 打开 [最新 Release](https://github.com/FuInSure/XINGNU/releases/latest)，展开 Assets，下载 `XINGNU-Default-Setup-20261102-r3.zip`。
 
 **完成标志：**能查看仓库文件并下载附件。出现 404 时先确认登录账号和邀请是否已接受；不要向别人索取房主账号、密码或令牌。本项目没有自动邀请任何组员。
 
@@ -118,7 +162,7 @@ Mods/
 
 ## 第七步：解压 XINGNU 准备包并打开 PowerShell
 
-1. 将第一步下载的 `XINGNU-Default-Setup-20261102-r2.zip` 全部解压到独立目录，例如文档目录下的 `XINGNU-Setup`。不要解压到 Mods。
+1. 将第一步下载的 `XINGNU-Default-Setup-20261102-r3.zip` 全部解压到独立目录，例如文档目录下的 `XINGNU-Setup`。不要解压到 Mods。
 2. 打开解压后的文件夹，应该直接看到：
 
 ```text
